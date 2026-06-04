@@ -1,0 +1,2342 @@
+[
+  {
+    "id": "AC-001",
+    "number": 1,
+    "name": "Gummidipoondi",
+    "district": "Thiruvallur",
+    "lok_sabha_seat": "Tiruvallur",
+    "total_electors": 254129,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-002",
+    "number": 2,
+    "name": "Ponneri",
+    "district": "Thiruvallur",
+    "lok_sabha_seat": "Tiruvallur",
+    "total_electors": 251397,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-003",
+    "number": 3,
+    "name": "Tiruttani",
+    "district": "Thiruvallur",
+    "lok_sabha_seat": "Arakkonam",
+    "total_electors": 261857,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-004",
+    "number": 4,
+    "name": "Thiruvallur",
+    "district": "Thiruvallur",
+    "lok_sabha_seat": "Tiruvallur",
+    "total_electors": 251018,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-005",
+    "number": 5,
+    "name": "Poonamallee",
+    "district": "Thiruvallur",
+    "lok_sabha_seat": "Tiruvallur",
+    "total_electors": 368634,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-006",
+    "number": 6,
+    "name": "Avadi",
+    "district": "Thiruvallur",
+    "lok_sabha_seat": "Tiruvallur",
+    "total_electors": 436177,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-007",
+    "number": 7,
+    "name": "Maduravoyal",
+    "district": "Chennai",
+    "lok_sabha_seat": "Sriperumbudur",
+    "total_electors": 373283,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-008",
+    "number": 8,
+    "name": "Ambattur",
+    "district": "Chennai",
+    "lok_sabha_seat": "Sriperumbudur",
+    "total_electors": 337019,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-009",
+    "number": 9,
+    "name": "Madavaram",
+    "district": "Chennai",
+    "lok_sabha_seat": "Tiruvallur",
+    "total_electors": 431796,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-010",
+    "number": 10,
+    "name": "Thiruvottiyur",
+    "district": "Chennai",
+    "lok_sabha_seat": "Chennai North",
+    "total_electors": 244903,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-011",
+    "number": 11,
+    "name": "Dr. Radhakrishnan Nagar",
+    "district": "Chennai",
+    "lok_sabha_seat": "Chennai North",
+    "total_electors": 199359,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-012",
+    "number": 12,
+    "name": "Perambur",
+    "district": "Chennai",
+    "lok_sabha_seat": "Chennai North",
+    "total_electors": 226296,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-013",
+    "number": 13,
+    "name": "Kolathur",
+    "district": "Chennai",
+    "lok_sabha_seat": "Chennai North",
+    "total_electors": 211772,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-014",
+    "number": 14,
+    "name": "Villivakkam",
+    "district": "Chennai",
+    "lok_sabha_seat": "Chennai Central",
+    "total_electors": 163372,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-015",
+    "number": 15,
+    "name": "Thiru-Vi-Ka-Nagar",
+    "district": "Chennai",
+    "lok_sabha_seat": "Chennai North",
+    "total_electors": 181621,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-016",
+    "number": 16,
+    "name": "Egmore",
+    "district": "Chennai",
+    "lok_sabha_seat": "Chennai Central",
+    "total_electors": 138775,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-017",
+    "number": 17,
+    "name": "Royapuram",
+    "district": "Chennai",
+    "lok_sabha_seat": "Chennai North",
+    "total_electors": 159654,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-018",
+    "number": 18,
+    "name": "Harbour",
+    "district": "Chennai",
+    "lok_sabha_seat": "Chennai Central",
+    "total_electors": 120126,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-019",
+    "number": 19,
+    "name": "Chepauk-Thiruvallikeni",
+    "district": "Chennai",
+    "lok_sabha_seat": "Chennai Central",
+    "total_electors": 166023,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-020",
+    "number": 20,
+    "name": "Thousand Lights",
+    "district": "Chennai",
+    "lok_sabha_seat": "Chennai Central",
+    "total_electors": 157529,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-021",
+    "number": 21,
+    "name": "Anna Nagar",
+    "district": "Chennai",
+    "lok_sabha_seat": "Chennai Central",
+    "total_electors": 188861,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-022",
+    "number": 22,
+    "name": "Virugampakkam",
+    "district": "Chennai",
+    "lok_sabha_seat": "Chennai South",
+    "total_electors": 200578,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-023",
+    "number": 23,
+    "name": "Saidapet",
+    "district": "Chennai",
+    "lok_sabha_seat": "Chennai South",
+    "total_electors": 204146,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-024",
+    "number": 24,
+    "name": "Thiyagarayanagar",
+    "district": "Chennai",
+    "lok_sabha_seat": "Chennai South",
+    "total_electors": 158757,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-025",
+    "number": 25,
+    "name": "Mylapore",
+    "district": "Chennai",
+    "lok_sabha_seat": "Chennai South",
+    "total_electors": 199465,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-026",
+    "number": 26,
+    "name": "Velachery",
+    "district": "Chennai",
+    "lok_sabha_seat": "Chennai South",
+    "total_electors": 217171,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-027",
+    "number": 27,
+    "name": "Sholinganallur",
+    "district": "Chennai",
+    "lok_sabha_seat": "Chennai South",
+    "total_electors": 553905,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-028",
+    "number": 28,
+    "name": "Alandur",
+    "district": "Chennai",
+    "lok_sabha_seat": "Sriperumbudur",
+    "total_electors": 301055,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-029",
+    "number": 29,
+    "name": "Sriperumbudur",
+    "district": "Kancheepuram",
+    "lok_sabha_seat": "Sriperumbudur",
+    "total_electors": 381750,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-030",
+    "number": 30,
+    "name": "Pallavaram",
+    "district": "Chengalpattu",
+    "lok_sabha_seat": "Sriperumbudur",
+    "total_electors": 336963,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-031",
+    "number": 31,
+    "name": "Tambaram",
+    "district": "Chengalpattu",
+    "lok_sabha_seat": "Sriperumbudur",
+    "total_electors": 330060,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-032",
+    "number": 32,
+    "name": "Chengalpattu",
+    "district": "Chengalpattu",
+    "lok_sabha_seat": "Kanchipuram",
+    "total_electors": 372839,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-033",
+    "number": 33,
+    "name": "Thiruporur",
+    "district": "Chengalpattu",
+    "lok_sabha_seat": "Kanchipuram",
+    "total_electors": 294410,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-034",
+    "number": 34,
+    "name": "Cheyyur",
+    "district": "Chengalpattu",
+    "lok_sabha_seat": "Kanchipuram",
+    "total_electors": 203998,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-035",
+    "number": 35,
+    "name": "Madurantakam",
+    "district": "Chengalpattu",
+    "lok_sabha_seat": "Kanchipuram",
+    "total_electors": 212639,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-036",
+    "number": 36,
+    "name": "Uthiramerur",
+    "district": "Kancheepuram",
+    "lok_sabha_seat": "Kanchipuram",
+    "total_electors": 246177,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-037",
+    "number": 37,
+    "name": "Kancheepuram",
+    "district": "Kancheepuram",
+    "lok_sabha_seat": "Kanchipuram",
+    "total_electors": 278775,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-038",
+    "number": 38,
+    "name": "Arakkonam",
+    "district": "Ranipet",
+    "lok_sabha_seat": "Arakkonam",
+    "total_electors": 200773,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-039",
+    "number": 39,
+    "name": "Sholingur",
+    "district": "Ranipet",
+    "lok_sabha_seat": "Arakkonam",
+    "total_electors": 257522,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-040",
+    "number": 40,
+    "name": "Katpadi",
+    "district": "Vellore",
+    "lok_sabha_seat": "Arakkonam",
+    "total_electors": 228736,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-041",
+    "number": 41,
+    "name": "Ranipet",
+    "district": "Ranipet",
+    "lok_sabha_seat": "Arakkonam",
+    "total_electors": 248244,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-042",
+    "number": 42,
+    "name": "Arcot",
+    "district": "Ranipet",
+    "lok_sabha_seat": "Arakkonam",
+    "total_electors": 245319,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-043",
+    "number": 43,
+    "name": "Vellore",
+    "district": "Vellore",
+    "lok_sabha_seat": "Vellore",
+    "total_electors": 214504,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-044",
+    "number": 44,
+    "name": "Anaikattu",
+    "district": "Vellore",
+    "lok_sabha_seat": "Vellore",
+    "total_electors": 238715,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-045",
+    "number": 45,
+    "name": "Kilvaithinankuppam",
+    "district": "Vellore",
+    "lok_sabha_seat": "Vellore",
+    "total_electors": 215304,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-046",
+    "number": 46,
+    "name": "Gudiyatham",
+    "district": "Vellore",
+    "lok_sabha_seat": "Vellore",
+    "total_electors": 251588,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-047",
+    "number": 47,
+    "name": "Vaniyambadi",
+    "district": "Tirupattur",
+    "lok_sabha_seat": "Vellore",
+    "total_electors": 242540,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-048",
+    "number": 48,
+    "name": "Ambur",
+    "district": "Tirupattur",
+    "lok_sabha_seat": "Vellore",
+    "total_electors": 214469,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-049",
+    "number": 49,
+    "name": "Jolarpet",
+    "district": "Tirupattur",
+    "lok_sabha_seat": "Tiruvannamalai",
+    "total_electors": 236127,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-050",
+    "number": 50,
+    "name": "Tiruppattur",
+    "district": "Tirupattur",
+    "lok_sabha_seat": "Tiruvannamalai",
+    "total_electors": 226691,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-051",
+    "number": 51,
+    "name": "Uthangarai",
+    "district": "Krishnagiri",
+    "lok_sabha_seat": "Krishnagiri",
+    "total_electors": 235451,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-052",
+    "number": 52,
+    "name": "Bargur",
+    "district": "Krishnagiri",
+    "lok_sabha_seat": "Krishnagiri",
+    "total_electors": 239318,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-053",
+    "number": 53,
+    "name": "Krishnagiri",
+    "district": "Krishnagiri",
+    "lok_sabha_seat": "Krishnagiri",
+    "total_electors": 267366,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-054",
+    "number": 54,
+    "name": "Veppanahalli",
+    "district": "Krishnagiri",
+    "lok_sabha_seat": "Krishnagiri",
+    "total_electors": 246093,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-055",
+    "number": 55,
+    "name": "Hosur",
+    "district": "Krishnagiri",
+    "lok_sabha_seat": "Krishnagiri",
+    "total_electors": 342989,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-056",
+    "number": 56,
+    "name": "Thalli",
+    "district": "Krishnagiri",
+    "lok_sabha_seat": "Krishnagiri",
+    "total_electors": 237924,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-057",
+    "number": 57,
+    "name": "Palacode",
+    "district": "Dharmapuri",
+    "lok_sabha_seat": "Dharamapuri",
+    "total_electors": 240322,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-058",
+    "number": 58,
+    "name": "Pennagaram",
+    "district": "Dharmapuri",
+    "lok_sabha_seat": "Dharamapuri",
+    "total_electors": 248614,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-059",
+    "number": 59,
+    "name": "Dharmapuri",
+    "district": "Dharmapuri",
+    "lok_sabha_seat": "Dharamapuri",
+    "total_electors": 260751,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-060",
+    "number": 60,
+    "name": "Pappireddippatti",
+    "district": "Dharmapuri",
+    "lok_sabha_seat": "Dharamapuri",
+    "total_electors": 256640,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-061",
+    "number": 61,
+    "name": "Harur",
+    "district": "Dharmapuri",
+    "lok_sabha_seat": "Dharamapuri",
+    "total_electors": 245692,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-062",
+    "number": 62,
+    "name": "Chengam",
+    "district": "Tiruvannamalai",
+    "lok_sabha_seat": "Tiruvannamalai",
+    "total_electors": 268997,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-063",
+    "number": 63,
+    "name": "Tiruvannamalai",
+    "district": "Tiruvannamalai",
+    "lok_sabha_seat": "Tiruvannamalai",
+    "total_electors": 249848,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-064",
+    "number": 64,
+    "name": "Kilpennathur",
+    "district": "Tiruvannamalai",
+    "lok_sabha_seat": "Tiruvannamalai",
+    "total_electors": 240823,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-065",
+    "number": 65,
+    "name": "Kalasapakkam",
+    "district": "Tiruvannamalai",
+    "lok_sabha_seat": "Tiruvannamalai",
+    "total_electors": 232847,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-066",
+    "number": 66,
+    "name": "Polur",
+    "district": "Tiruvannamalai",
+    "lok_sabha_seat": "Arani",
+    "total_electors": 233774,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-067",
+    "number": 67,
+    "name": "Arani",
+    "district": "Tiruvannamalai",
+    "lok_sabha_seat": "Arani",
+    "total_electors": 254963,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-068",
+    "number": 68,
+    "name": "Cheyyar",
+    "district": "Tiruvannamalai",
+    "lok_sabha_seat": "Arani",
+    "total_electors": 239856,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-069",
+    "number": 69,
+    "name": "Vandavasi",
+    "district": "Tiruvannamalai",
+    "lok_sabha_seat": "Arani",
+    "total_electors": 213474,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-070",
+    "number": 70,
+    "name": "Gingee",
+    "district": "Viluppuram",
+    "lok_sabha_seat": "Arani",
+    "total_electors": 242667,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-071",
+    "number": 71,
+    "name": "Mailam",
+    "district": "Viluppuram",
+    "lok_sabha_seat": "Arani",
+    "total_electors": 209016,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-072",
+    "number": 72,
+    "name": "Tindivanam",
+    "district": "Viluppuram",
+    "lok_sabha_seat": "Viluppuram",
+    "total_electors": 219256,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-073",
+    "number": 73,
+    "name": "Vanur",
+    "district": "Viluppuram",
+    "lok_sabha_seat": "Viluppuram",
+    "total_electors": 209824,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-074",
+    "number": 74,
+    "name": "Villupuram",
+    "district": "Viluppuram",
+    "lok_sabha_seat": "Viluppuram",
+    "total_electors": 245899,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-075",
+    "number": 75,
+    "name": "Vikravandi",
+    "district": "Viluppuram",
+    "lok_sabha_seat": "Viluppuram",
+    "total_electors": 228995,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-076",
+    "number": 76,
+    "name": "Tirukkoyilur",
+    "district": "Kallakurichi",
+    "lok_sabha_seat": "Viluppuram",
+    "total_electors": 243105,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-077",
+    "number": 77,
+    "name": "Ulundurpettai",
+    "district": "Kallakurichi",
+    "lok_sabha_seat": "Viluppuram",
+    "total_electors": 300699,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-078",
+    "number": 78,
+    "name": "Rishivandiyam",
+    "district": "Kallakurichi",
+    "lok_sabha_seat": "Kallakurichi",
+    "total_electors": 273571,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-079",
+    "number": 79,
+    "name": "Sankarapuram",
+    "district": "Kallakurichi",
+    "lok_sabha_seat": "Kallakurichi",
+    "total_electors": 265951,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-080",
+    "number": 80,
+    "name": "Kallakurichi",
+    "district": "Kallakurichi",
+    "lok_sabha_seat": "Kallakurichi",
+    "total_electors": 281582,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-081",
+    "number": 81,
+    "name": "Gangavalli",
+    "district": "Salem",
+    "lok_sabha_seat": "Kallakurichi",
+    "total_electors": 218317,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-082",
+    "number": 82,
+    "name": "Attur",
+    "district": "Salem",
+    "lok_sabha_seat": "Kallakurichi",
+    "total_electors": 228153,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-083",
+    "number": 83,
+    "name": "Yercaud",
+    "district": "Salem",
+    "lok_sabha_seat": "Kallakurichi",
+    "total_electors": 272829,
+    "reserved": "ST",
+    "status": "filled"
+  },
+  {
+    "id": "AC-084",
+    "number": 84,
+    "name": "Omalur",
+    "district": "Salem",
+    "lok_sabha_seat": "Salem",
+    "total_electors": 294593,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-085",
+    "number": 85,
+    "name": "Mettur",
+    "district": "Salem",
+    "lok_sabha_seat": "Dharamapuri",
+    "total_electors": 255665,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-086",
+    "number": 86,
+    "name": "Edappadi",
+    "district": "Salem",
+    "lok_sabha_seat": "Salem",
+    "total_electors": 276387,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-087",
+    "number": 87,
+    "name": "Sankari",
+    "district": "Salem",
+    "lok_sabha_seat": "Namakkal",
+    "total_electors": 260525,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-088",
+    "number": 88,
+    "name": "Salem (West)",
+    "district": "Salem",
+    "lok_sabha_seat": "Salem",
+    "total_electors": 257950,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-089",
+    "number": 89,
+    "name": "Salem (North)",
+    "district": "Salem",
+    "lok_sabha_seat": "Salem",
+    "total_electors": 238637,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-090",
+    "number": 90,
+    "name": "Salem (South)",
+    "district": "Salem",
+    "lok_sabha_seat": "Salem",
+    "total_electors": 226851,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-091",
+    "number": 91,
+    "name": "Veerapandi",
+    "district": "Salem",
+    "lok_sabha_seat": "Salem",
+    "total_electors": 250449,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-092",
+    "number": 92,
+    "name": "Rasipuram",
+    "district": "Namakkal",
+    "lok_sabha_seat": "Namakkal",
+    "total_electors": 222252,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-093",
+    "number": 93,
+    "name": "Senthamangalam",
+    "district": "Namakkal",
+    "lok_sabha_seat": "Namakkal",
+    "total_electors": 229398,
+    "reserved": "ST",
+    "status": "filled"
+  },
+  {
+    "id": "AC-094",
+    "number": 94,
+    "name": "Namakkal",
+    "district": "Namakkal",
+    "lok_sabha_seat": "Namakkal",
+    "total_electors": 237836,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-095",
+    "number": 95,
+    "name": "Paramathi Velur",
+    "district": "Namakkal",
+    "lok_sabha_seat": "Namakkal",
+    "total_electors": 205147,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-096",
+    "number": 96,
+    "name": "Tiruchengodu",
+    "district": "Namakkal",
+    "lok_sabha_seat": "Namakkal",
+    "total_electors": 209072,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-097",
+    "number": 97,
+    "name": "Kumarapalayam",
+    "district": "Namakkal",
+    "lok_sabha_seat": "Erode",
+    "total_electors": 220048,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-098",
+    "number": 98,
+    "name": "Erode (East)",
+    "district": "Erode",
+    "lok_sabha_seat": "Erode",
+    "total_electors": 179566,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-099",
+    "number": 99,
+    "name": "Erode (West)",
+    "district": "Erode",
+    "lok_sabha_seat": "Erode",
+    "total_electors": 250177,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-100",
+    "number": 100,
+    "name": "Modakkurichi",
+    "district": "Erode",
+    "lok_sabha_seat": "Erode",
+    "total_electors": 207664,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-101",
+    "number": 101,
+    "name": "Dharapuram",
+    "district": "Tiruppur",
+    "lok_sabha_seat": "Erode",
+    "total_electors": 222406,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-102",
+    "number": 102,
+    "name": "Kangayam",
+    "district": "Tiruppur",
+    "lok_sabha_seat": "Erode",
+    "total_electors": 219553,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-103",
+    "number": 103,
+    "name": "Perundurai",
+    "district": "Erode",
+    "lok_sabha_seat": "Tiruppur",
+    "total_electors": 214431,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-104",
+    "number": 104,
+    "name": "Bhavani",
+    "district": "Erode",
+    "lok_sabha_seat": "Tiruppur",
+    "total_electors": 223172,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-105",
+    "number": 105,
+    "name": "Anthiyur",
+    "district": "Erode",
+    "lok_sabha_seat": "Tiruppur",
+    "total_electors": 207355,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-106",
+    "number": 106,
+    "name": "Gobichettipalayam",
+    "district": "Erode",
+    "lok_sabha_seat": "Tiruppur",
+    "total_electors": 239179,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-107",
+    "number": 107,
+    "name": "Bhavanisagar",
+    "district": "Erode",
+    "lok_sabha_seat": "Nilgiris",
+    "total_electors": 237613,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-108",
+    "number": 108,
+    "name": "Udhagamandalam",
+    "district": "Nilgiris",
+    "lok_sabha_seat": "Nilgiris",
+    "total_electors": 188826,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-109",
+    "number": 109,
+    "name": "Gudalur",
+    "district": "Nilgiris",
+    "lok_sabha_seat": "Nilgiris",
+    "total_electors": 185398,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-110",
+    "number": 110,
+    "name": "Coonoor",
+    "district": "Nilgiris",
+    "lok_sabha_seat": "Nilgiris",
+    "total_electors": 177782,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-111",
+    "number": 111,
+    "name": "Mettupalayam",
+    "district": "Coimbatore",
+    "lok_sabha_seat": "Nilgiris",
+    "total_electors": 282179,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-112",
+    "number": 112,
+    "name": "Avanashi",
+    "district": "Tiruppur",
+    "lok_sabha_seat": "Nilgiris",
+    "total_electors": 253361,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-113",
+    "number": 113,
+    "name": "Tiruppur (North)",
+    "district": "Tiruppur",
+    "lok_sabha_seat": "Tiruppur",
+    "total_electors": 315837,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-114",
+    "number": 114,
+    "name": "Tiruppur (South)",
+    "district": "Tiruppur",
+    "lok_sabha_seat": "Tiruppur",
+    "total_electors": 197091,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-115",
+    "number": 115,
+    "name": "Palladam",
+    "district": "Tiruppur",
+    "lok_sabha_seat": "Coimbatore",
+    "total_electors": 329849,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-116",
+    "number": 116,
+    "name": "Sulur",
+    "district": "Coimbatore",
+    "lok_sabha_seat": "Coimbatore",
+    "total_electors": 307616,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-117",
+    "number": 117,
+    "name": "Kavundampalayam",
+    "district": "Coimbatore",
+    "lok_sabha_seat": "Coimbatore",
+    "total_electors": 422138,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-118",
+    "number": 118,
+    "name": "Coimbatore (North)",
+    "district": "Coimbatore",
+    "lok_sabha_seat": "Coimbatore",
+    "total_electors": 296939,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-119",
+    "number": 119,
+    "name": "Thondamuthur",
+    "district": "Coimbatore",
+    "lok_sabha_seat": "Pollachi",
+    "total_electors": 293324,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-120",
+    "number": 120,
+    "name": "Coimbatore (South)",
+    "district": "Coimbatore",
+    "lok_sabha_seat": "Coimbatore",
+    "total_electors": 188878,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-121",
+    "number": 121,
+    "name": "Singanallur",
+    "district": "Coimbatore",
+    "lok_sabha_seat": "Coimbatore",
+    "total_electors": 269941,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-122",
+    "number": 122,
+    "name": "Kinathukadavu",
+    "district": "Coimbatore",
+    "lok_sabha_seat": "Pollachi",
+    "total_electors": 305878,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-123",
+    "number": 123,
+    "name": "Pollachi",
+    "district": "Coimbatore",
+    "lok_sabha_seat": "Pollachi",
+    "total_electors": 203971,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-124",
+    "number": 124,
+    "name": "Valparai",
+    "district": "Coimbatore",
+    "lok_sabha_seat": "Pollachi",
+    "total_electors": 173608,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-125",
+    "number": 125,
+    "name": "Udumalaipettai",
+    "district": "Tiruppur",
+    "lok_sabha_seat": "Pollachi",
+    "total_electors": 230976,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-126",
+    "number": 126,
+    "name": "Madathukulam",
+    "district": "Tiruppur",
+    "lok_sabha_seat": "Pollachi",
+    "total_electors": 214809,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-127",
+    "number": 127,
+    "name": "Palani",
+    "district": "Dindigul",
+    "lok_sabha_seat": "Dindigul",
+    "total_electors": 239795,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-128",
+    "number": 128,
+    "name": "Oddanchatram",
+    "district": "Dindigul",
+    "lok_sabha_seat": "Dindigul",
+    "total_electors": 220238,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-129",
+    "number": 129,
+    "name": "Athoor",
+    "district": "Dindigul",
+    "lok_sabha_seat": "Dindigul",
+    "total_electors": 261843,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-130",
+    "number": 130,
+    "name": "Nilakottai",
+    "district": "Dindigul",
+    "lok_sabha_seat": "Dindigul",
+    "total_electors": 221094,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-131",
+    "number": 131,
+    "name": "Natham",
+    "district": "Dindigul",
+    "lok_sabha_seat": "Dindigul",
+    "total_electors": 261152,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-132",
+    "number": 132,
+    "name": "Dindigul",
+    "district": "Dindigul",
+    "lok_sabha_seat": "Dindigul",
+    "total_electors": 241926,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-133",
+    "number": 133,
+    "name": "Vedasandur",
+    "district": "Dindigul",
+    "lok_sabha_seat": "Karur",
+    "total_electors": 243774,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-134",
+    "number": 134,
+    "name": "Aravakurichi",
+    "district": "Karur",
+    "lok_sabha_seat": "Karur",
+    "total_electors": 195517,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-135",
+    "number": 135,
+    "name": "Karur",
+    "district": "Karur",
+    "lok_sabha_seat": "Karur",
+    "total_electors": 229995,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-136",
+    "number": 136,
+    "name": "Krishnarayapuram",
+    "district": "Karur",
+    "lok_sabha_seat": "Karur",
+    "total_electors": 202994,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-137",
+    "number": 137,
+    "name": "Kulithalai",
+    "district": "Karur",
+    "lok_sabha_seat": "Perambalur",
+    "total_electors": 223184,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-138",
+    "number": 138,
+    "name": "Manapaarai",
+    "district": "Tiruchirappalli",
+    "lok_sabha_seat": "Karur",
+    "total_electors": 267999,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-139",
+    "number": 139,
+    "name": "Srirangam",
+    "district": "Tiruchirappalli",
+    "lok_sabha_seat": "Tiruchirappalli",
+    "total_electors": 287027,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-140",
+    "number": 140,
+    "name": "Tiruchirappalli (West)",
+    "district": "Tiruchirappalli",
+    "lok_sabha_seat": "Tiruchirappalli",
+    "total_electors": 238920,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-141",
+    "number": 141,
+    "name": "Tiruchirappalli (East)",
+    "district": "Tiruchirappalli",
+    "lok_sabha_seat": "Tiruchirappalli",
+    "total_electors": 220191,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-142",
+    "number": 142,
+    "name": "Thiruverumbur",
+    "district": "Tiruchirappalli",
+    "lok_sabha_seat": "Tiruchirappalli",
+    "total_electors": 259546,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-143",
+    "number": 143,
+    "name": "Lalgudi",
+    "district": "Tiruchirappalli",
+    "lok_sabha_seat": "Perambalur",
+    "total_electors": 212177,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-144",
+    "number": 144,
+    "name": "Manachanallur",
+    "district": "Tiruchirappalli",
+    "lok_sabha_seat": "Perambalur",
+    "total_electors": 236500,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-145",
+    "number": 145,
+    "name": "Musiri",
+    "district": "Tiruchirappalli",
+    "lok_sabha_seat": "Perambalur",
+    "total_electors": 214006,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-146",
+    "number": 146,
+    "name": "Thuraiyur",
+    "district": "Tiruchirappalli",
+    "lok_sabha_seat": "Perambalur",
+    "total_electors": 210685,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-147",
+    "number": 147,
+    "name": "Perambalur",
+    "district": "Perambalur",
+    "lok_sabha_seat": "Perambalur",
+    "total_electors": 290666,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-148",
+    "number": 148,
+    "name": "Kunnam",
+    "district": "Perambalur",
+    "lok_sabha_seat": "Chidambaram",
+    "total_electors": 268095,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-149",
+    "number": 149,
+    "name": "Ariyalur",
+    "district": "Ariyalur",
+    "lok_sabha_seat": "Chidambaram",
+    "total_electors": 262942,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-150",
+    "number": 150,
+    "name": "Jayankondam",
+    "district": "Ariyalur",
+    "lok_sabha_seat": "Chidambaram",
+    "total_electors": 263450,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-151",
+    "number": 151,
+    "name": "Tittakudi",
+    "district": "Cuddalore",
+    "lok_sabha_seat": "Cuddalore",
+    "total_electors": 208984,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-152",
+    "number": 152,
+    "name": "Virudhachalam",
+    "district": "Cuddalore",
+    "lok_sabha_seat": "Cuddalore",
+    "total_electors": 240783,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-153",
+    "number": 153,
+    "name": "Neyveli",
+    "district": "Cuddalore",
+    "lok_sabha_seat": "Cuddalore",
+    "total_electors": 191271,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-154",
+    "number": 154,
+    "name": "Panruti",
+    "district": "Cuddalore",
+    "lok_sabha_seat": "Cuddalore",
+    "total_electors": 241767,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-155",
+    "number": 155,
+    "name": "Cuddalore",
+    "district": "Cuddalore",
+    "lok_sabha_seat": "Cuddalore",
+    "total_electors": 223149,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-156",
+    "number": 156,
+    "name": "Kurinjipadi",
+    "district": "Cuddalore",
+    "lok_sabha_seat": "Cuddalore",
+    "total_electors": 238189,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-157",
+    "number": 157,
+    "name": "Bhuvanagiri",
+    "district": "Cuddalore",
+    "lok_sabha_seat": "Chidambaram",
+    "total_electors": 233259,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-158",
+    "number": 158,
+    "name": "Chidambaram",
+    "district": "Cuddalore",
+    "lok_sabha_seat": "Chidambaram",
+    "total_electors": 231236,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-159",
+    "number": 159,
+    "name": "Kattumannarkoil",
+    "district": "Cuddalore",
+    "lok_sabha_seat": "Chidambaram",
+    "total_electors": 226333,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-160",
+    "number": 160,
+    "name": "Sirkazhi",
+    "district": "Mayiladuthurai",
+    "lok_sabha_seat": "Mayiladuthurai",
+    "total_electors": 241319,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-161",
+    "number": 161,
+    "name": "Mayiladuthurai",
+    "district": "Mayiladuthurai",
+    "lok_sabha_seat": "Mayiladuthurai",
+    "total_electors": 234554,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-162",
+    "number": 162,
+    "name": "Poompuhar",
+    "district": "Mayiladuthurai",
+    "lok_sabha_seat": "Mayiladuthurai",
+    "total_electors": 259262,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-163",
+    "number": 163,
+    "name": "Nagapattinam",
+    "district": "Nagapattinam",
+    "lok_sabha_seat": "Nagapattinam",
+    "total_electors": 174683,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-164",
+    "number": 164,
+    "name": "Kilvelur",
+    "district": "Nagapattinam",
+    "lok_sabha_seat": "Nagapattinam",
+    "total_electors": 170558,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-165",
+    "number": 165,
+    "name": "Vedaranyam",
+    "district": "Nagapattinam",
+    "lok_sabha_seat": "Nagapattinam",
+    "total_electors": 187439,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-166",
+    "number": 166,
+    "name": "Thiruthuraipoondi",
+    "district": "Thiruvarur",
+    "lok_sabha_seat": "Nagapattinam",
+    "total_electors": 226845,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-167",
+    "number": 167,
+    "name": "Mannargudi",
+    "district": "Thiruvarur",
+    "lok_sabha_seat": "Thanjavur",
+    "total_electors": 234430,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-168",
+    "number": 168,
+    "name": "Thiruvarur",
+    "district": "Thiruvarur",
+    "lok_sabha_seat": "Nagapattinam",
+    "total_electors": 260027,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-169",
+    "number": 169,
+    "name": "Nannilam",
+    "district": "Thiruvarur",
+    "lok_sabha_seat": "Nagapattinam",
+    "total_electors": 267432,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-170",
+    "number": 170,
+    "name": "Thiruvidaimarudur",
+    "district": "Thanjavur",
+    "lok_sabha_seat": "Mayiladuthurai",
+    "total_electors": 256930,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-171",
+    "number": 171,
+    "name": "Kumbakonam",
+    "district": "Thanjavur",
+    "lok_sabha_seat": "Mayiladuthurai",
+    "total_electors": 254318,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-172",
+    "number": 172,
+    "name": "Papanasam",
+    "district": "Thanjavur",
+    "lok_sabha_seat": "Mayiladuthurai",
+    "total_electors": 256518,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-173",
+    "number": 173,
+    "name": "Thiruvaiyaru",
+    "district": "Thanjavur",
+    "lok_sabha_seat": "Thanjavur",
+    "total_electors": 258374,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-174",
+    "number": 174,
+    "name": "Thanjavur",
+    "district": "Thanjavur",
+    "lok_sabha_seat": "Thanjavur",
+    "total_electors": 252676,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-175",
+    "number": 175,
+    "name": "Orathanadu",
+    "district": "Thanjavur",
+    "lok_sabha_seat": "Thanjavur",
+    "total_electors": 233542,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-176",
+    "number": 176,
+    "name": "Pattukkottai",
+    "district": "Thanjavur",
+    "lok_sabha_seat": "Thanjavur",
+    "total_electors": 242420,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-177",
+    "number": 177,
+    "name": "Peravurani",
+    "district": "Thanjavur",
+    "lok_sabha_seat": "Thanjavur",
+    "total_electors": 213946,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-178",
+    "number": 178,
+    "name": "Gandarvakottai",
+    "district": "Pudukkottai",
+    "lok_sabha_seat": "Tiruchirappalli",
+    "total_electors": 196024,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-179",
+    "number": 179,
+    "name": "Viralimalai",
+    "district": "Pudukkottai",
+    "lok_sabha_seat": "Karur",
+    "total_electors": 225090,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-180",
+    "number": 180,
+    "name": "Pudukkottai",
+    "district": "Pudukkottai",
+    "lok_sabha_seat": "Tiruchirappalli",
+    "total_electors": 225944,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-181",
+    "number": 181,
+    "name": "Thirumayam",
+    "district": "Pudukkottai",
+    "lok_sabha_seat": "Sivaganga",
+    "total_electors": 220568,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-182",
+    "number": 182,
+    "name": "Alangudi",
+    "district": "Pudukkottai",
+    "lok_sabha_seat": "Sivaganga",
+    "total_electors": 212078,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-183",
+    "number": 183,
+    "name": "Aranthangi",
+    "district": "Pudukkottai",
+    "lok_sabha_seat": "Ramanathapuram",
+    "total_electors": 229792,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-184",
+    "number": 184,
+    "name": "Karaikudi",
+    "district": "Sivaganga",
+    "lok_sabha_seat": "Sivaganga",
+    "total_electors": 305925,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-185",
+    "number": 185,
+    "name": "Tiruppattur",
+    "district": "Sivaganga",
+    "lok_sabha_seat": "Sivaganga",
+    "total_electors": 275904,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-186",
+    "number": 186,
+    "name": "Sivaganga",
+    "district": "Sivaganga",
+    "lok_sabha_seat": "Sivaganga",
+    "total_electors": 278124,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-187",
+    "number": 187,
+    "name": "Manamadurai",
+    "district": "Sivaganga",
+    "lok_sabha_seat": "Sivaganga",
+    "total_electors": 259382,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-188",
+    "number": 188,
+    "name": "Melur",
+    "district": "Madurai",
+    "lok_sabha_seat": "Madurai",
+    "total_electors": 229821,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-189",
+    "number": 189,
+    "name": "Madurai East",
+    "district": "Madurai",
+    "lok_sabha_seat": "Madurai",
+    "total_electors": 336527,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-190",
+    "number": 190,
+    "name": "Sholavandan",
+    "district": "Madurai",
+    "lok_sabha_seat": "Theni",
+    "total_electors": 214785,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-191",
+    "number": 191,
+    "name": "Madurai North",
+    "district": "Madurai",
+    "lok_sabha_seat": "Madurai",
+    "total_electors": 221174,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-192",
+    "number": 192,
+    "name": "Madurai South",
+    "district": "Madurai",
+    "lok_sabha_seat": "Madurai",
+    "total_electors": 179919,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-193",
+    "number": 193,
+    "name": "Madurai Central",
+    "district": "Madurai",
+    "lok_sabha_seat": "Madurai",
+    "total_electors": 199618,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-194",
+    "number": 194,
+    "name": "Madurai West",
+    "district": "Madurai",
+    "lok_sabha_seat": "Madurai",
+    "total_electors": 275516,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-195",
+    "number": 195,
+    "name": "Thiruparankundram",
+    "district": "Madurai",
+    "lok_sabha_seat": "Virudhunagar",
+    "total_electors": 311400,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-196",
+    "number": 196,
+    "name": "Thirumangalam",
+    "district": "Madurai",
+    "lok_sabha_seat": "Virudhunagar",
+    "total_electors": 261238,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-197",
+    "number": 197,
+    "name": "Usilampatti",
+    "district": "Madurai",
+    "lok_sabha_seat": "Theni",
+    "total_electors": 266192,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-198",
+    "number": 198,
+    "name": "Andipatti",
+    "district": "Theni",
+    "lok_sabha_seat": "Theni",
+    "total_electors": 256529,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-199",
+    "number": 199,
+    "name": "Periyakulam",
+    "district": "Theni",
+    "lok_sabha_seat": "Theni",
+    "total_electors": 265830,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-200",
+    "number": 200,
+    "name": "Bodinayakanur",
+    "district": "Theni",
+    "lok_sabha_seat": "Theni",
+    "total_electors": 263292,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-201",
+    "number": 201,
+    "name": "Cumbum",
+    "district": "Theni",
+    "lok_sabha_seat": "Theni",
+    "total_electors": 255888,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-202",
+    "number": 202,
+    "name": "Rajapalayam",
+    "district": "Virudhunagar",
+    "lok_sabha_seat": "Tenkasi",
+    "total_electors": 214192,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-203",
+    "number": 203,
+    "name": "Srivilliputhur",
+    "district": "Virudhunagar",
+    "lok_sabha_seat": "Tenkasi",
+    "total_electors": 224122,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-204",
+    "number": 204,
+    "name": "Sattur",
+    "district": "Virudhunagar",
+    "lok_sabha_seat": "Virudhunagar",
+    "total_electors": 229330,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-205",
+    "number": 205,
+    "name": "Sivakasi",
+    "district": "Virudhunagar",
+    "lok_sabha_seat": "Virudhunagar",
+    "total_electors": 228205,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-206",
+    "number": 206,
+    "name": "Virudhunagar",
+    "district": "Virudhunagar",
+    "lok_sabha_seat": "Virudhunagar",
+    "total_electors": 200618,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-207",
+    "number": 207,
+    "name": "Aruppukkottai",
+    "district": "Virudhunagar",
+    "lok_sabha_seat": "Virudhunagar",
+    "total_electors": 207750,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-208",
+    "number": 208,
+    "name": "Tiruchuli",
+    "district": "Virudhunagar",
+    "lok_sabha_seat": "Ramanathapuram",
+    "total_electors": 205301,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-209",
+    "number": 209,
+    "name": "Paramakudi",
+    "district": "Ramanathapuram",
+    "lok_sabha_seat": "Ramanathapuram",
+    "total_electors": 234608,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-210",
+    "number": 210,
+    "name": "Tiruvadanai",
+    "district": "Ramanathapuram",
+    "lok_sabha_seat": "Ramanathapuram",
+    "total_electors": 283864,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-211",
+    "number": 211,
+    "name": "Ramanathapuram",
+    "district": "Ramanathapuram",
+    "lok_sabha_seat": "Ramanathapuram",
+    "total_electors": 312303,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-212",
+    "number": 212,
+    "name": "Mudhukulathur",
+    "district": "Ramanathapuram",
+    "lok_sabha_seat": "Ramanathapuram",
+    "total_electors": 298958,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-213",
+    "number": 213,
+    "name": "Vilathikulam",
+    "district": "Thoothukudi",
+    "lok_sabha_seat": "Thoothukkudi",
+    "total_electors": 204982,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-214",
+    "number": 214,
+    "name": "Thoothukkudi",
+    "district": "Thoothukudi",
+    "lok_sabha_seat": "Thoothukkudi",
+    "total_electors": 250587,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-215",
+    "number": 215,
+    "name": "Tiruchendur",
+    "district": "Thoothukudi",
+    "lok_sabha_seat": "Thoothukkudi",
+    "total_electors": 232933,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-216",
+    "number": 216,
+    "name": "Srivaikuntam",
+    "district": "Thoothukudi",
+    "lok_sabha_seat": "Thoothukkudi",
+    "total_electors": 214268,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-217",
+    "number": 217,
+    "name": "Ottapidaram",
+    "district": "Thoothukudi",
+    "lok_sabha_seat": "Thoothukkudi",
+    "total_electors": 243756,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-218",
+    "number": 218,
+    "name": "Kovilpatti",
+    "district": "Thoothukudi",
+    "lok_sabha_seat": "Thoothukkudi",
+    "total_electors": 241660,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-219",
+    "number": 219,
+    "name": "Sankarankovil",
+    "district": "Tenkasi",
+    "lok_sabha_seat": "Tenkasi",
+    "total_electors": 238082,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-220",
+    "number": 220,
+    "name": "Vasudevanallur",
+    "district": "Tenkasi",
+    "lok_sabha_seat": "Tenkasi",
+    "total_electors": 228557,
+    "reserved": "SC",
+    "status": "filled"
+  },
+  {
+    "id": "AC-221",
+    "number": 221,
+    "name": "Kadayanallur",
+    "district": "Tenkasi",
+    "lok_sabha_seat": "Tenkasi",
+    "total_electors": 269220,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-222",
+    "number": 222,
+    "name": "Tenkasi",
+    "district": "Tenkasi",
+    "lok_sabha_seat": "Tenkasi",
+    "total_electors": 281624,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-223",
+    "number": 223,
+    "name": "Alangulam",
+    "district": "Tenkasi",
+    "lok_sabha_seat": "Tirunelveli",
+    "total_electors": 255457,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-224",
+    "number": 224,
+    "name": "Tirunelveli",
+    "district": "Tirunelveli",
+    "lok_sabha_seat": "Tirunelveli",
+    "total_electors": 275857,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-225",
+    "number": 225,
+    "name": "Ambasamudram",
+    "district": "Tirunelveli",
+    "lok_sabha_seat": "Tirunelveli",
+    "total_electors": 227878,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-226",
+    "number": 226,
+    "name": "Palayamkottai",
+    "district": "Tirunelveli",
+    "lok_sabha_seat": "Tirunelveli",
+    "total_electors": 257329,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-227",
+    "number": 227,
+    "name": "Nanguneri",
+    "district": "Tirunelveli",
+    "lok_sabha_seat": "Tirunelveli",
+    "total_electors": 257177,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-228",
+    "number": 228,
+    "name": "Radhapuram",
+    "district": "Tirunelveli",
+    "lok_sabha_seat": "Tirunelveli",
+    "total_electors": 247061,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-229",
+    "number": 229,
+    "name": "Kanniyakumari",
+    "district": "Kanniyakumari",
+    "lok_sabha_seat": "Kanniyakumari",
+    "total_electors": 288867,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-230",
+    "number": 230,
+    "name": "Nagercoil",
+    "district": "Kanniyakumari",
+    "lok_sabha_seat": "Kanniyakumari",
+    "total_electors": 258928,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-231",
+    "number": 231,
+    "name": "Colachal",
+    "district": "Kanniyakumari",
+    "lok_sabha_seat": "Kanniyakumari",
+    "total_electors": 265015,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-232",
+    "number": 232,
+    "name": "Padmanabhapuram",
+    "district": "Kanniyakumari",
+    "lok_sabha_seat": "Kanniyakumari",
+    "total_electors": 235511,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-233",
+    "number": 233,
+    "name": "Vilavancode",
+    "district": "Kanniyakumari",
+    "lok_sabha_seat": "Kanniyakumari",
+    "total_electors": 226658,
+    "reserved": "GEN",
+    "status": "filled"
+  },
+  {
+    "id": "AC-234",
+    "number": 234,
+    "name": "Killiyoor",
+    "district": "Kanniyakumari",
+    "lok_sabha_seat": "Kanniyakumari",
+    "total_electors": 245359,
+    "reserved": "GEN",
+    "status": "filled"
+  }
+]

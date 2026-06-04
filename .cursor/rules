@@ -1,0 +1,38 @@
+# TNWatch — Cursor Project Rules
+
+You are working on TNWatch, an independent civic-accountability platform for
+Tamil Nadu. ALWAYS read `CONTEXT.md` in the repo root before writing any code.
+It is the single source of truth.
+
+## Always
+- Read CONTEXT.md first. If your task contradicts it, stop and flag it.
+- Build ONE feature at a time. Slice #1 is MLA Profiles & Performance.
+- Use Pydantic v2 models for all data. No loose dicts.
+- Write async backend code (FastAPI, httpx.AsyncClient, async DB driver).
+- Every agent: fetch() -> parse() -> store() -> report() (writes to agent_runs).
+- Every fact-bearing row MUST carry a source_url. No source, no store.
+- Idempotent upserts keyed on stable IDs. Never create duplicates on re-run.
+- Ship a pytest test with every agent and every API route.
+- Use .env for secrets; never hardcode keys. Keep .env.example updated.
+- Conventional commits: feat: / fix: / refactor: / docs: / chore:.
+
+## Never
+- Never build all four verticals at once.
+- Never hardcode political facts (party seat counts, who holds power, who is CM).
+  The 17th TN Assembly is volatile — always scrape current values.
+- Never publish opinions or accusations. Sourced facts only.
+- Never scrape disrespectfully: honour robots.txt, rate-limit, set a User-Agent.
+- Never merge code you cannot explain in one sentence.
+- Never store private data or paywalled/copyrighted full text.
+
+## Conventions
+- Python/DB: snake_case. TypeScript/React: camelCase.
+- Folder layout: agents/ (scrapers+normaliser), backend/ (FastAPI+schema),
+  frontend/ (Next.js), data/ (seeds, local SQLite), scripts/ (one-off tools),
+  docs/ (architecture, data sources, build plan).
+- Tests live next to the code they test or in a tests/ subfolder.
+
+## When stuck
+- Prefer asking for the data contract / design before generating large code.
+- If a selector or source structure is unknown, write a small probe script first
+  and inspect output before building the full agent.
