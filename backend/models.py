@@ -52,17 +52,19 @@ class MLADetail(BaseModel):
     assembly_number: int = 17
     elected_year: int | None = None
     vote_margin: int | None = None
-    vote_share_pct: Decimal | None = None
+    vote_share: Decimal | None = None
     age: int | None = None
     education: str | None = None
     profession: str | None = None
-    declared_assets_cr: Decimal | None = None
-    liabilities_cr: Decimal | None = None
+    total_assets: Decimal | None = None
+    total_liabilities: Decimal | None = None
     criminal_cases: int = 0
+    criminal_cases_serious: int | None = None
     is_minister: bool = False
     portfolio: str | None = None
     photo_url: str | None = None
     performance_score: Decimal | None = None
+    score_breakdown: dict | None = None
     source_url: str | None = None
     last_updated: str | None = None  # ISO timestamp string from Supabase
 

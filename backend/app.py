@@ -115,6 +115,13 @@ async def get_mla(mla_id: str) -> MLADetail:
         raise HTTPException(status_code=404, detail=f"MLA '{mla_id}' not found")
     row = dict(resp.data[0])
     constituency_name = (row.pop("constituencies", None) or {}).get("name", "")
+    # Remap renamed DB columns to new API field names
+    row["vote_share"] = row.pop("vote_share_pct", None)
+    row["total_assets"] = row.pop("declared_assets_cr", None)
+    row["total_liabilities"] = row.pop("liabilities_cr", None)
+    # Columns not yet in DB schema — default to None until migration runs
+    row.setdefault("criminal_cases_serious", None)
+    row.setdefault("score_breakdown", None)
     return MLADetail(**row, constituency_name=constituency_name)
 
 
