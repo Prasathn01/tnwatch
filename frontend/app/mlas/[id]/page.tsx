@@ -133,38 +133,38 @@ export default async function MLADetailPage({ params }: Props) {
           </h2>
           <dl className="space-y-4">
 
-            <EnrichmentRow label="Vote Margin" updatedAt={mla.voteMargin !== null ? pageUpdated : null}>
-              {mla.voteMargin !== null
+            <EnrichmentRow label="Vote Margin" updatedAt={mla.voteMargin != null ? pageUpdated : null}>
+              {mla.voteMargin != null
                 ? <span className="text-sm text-gray-800">{formatVoteMargin(mla.voteMargin)}</span>
                 : <Pending />}
             </EnrichmentRow>
 
-            <EnrichmentRow label="Vote Share" updatedAt={mla.voteShare !== null ? pageUpdated : null}>
-              {mla.voteShare !== null
+            <EnrichmentRow label="Vote Share" updatedAt={mla.voteShare != null ? pageUpdated : null}>
+              {mla.voteShare != null
                 ? <span className="text-sm text-gray-800">{mla.voteShare}%</span>
                 : <Pending />}
             </EnrichmentRow>
 
-            <EnrichmentRow label="Declared Assets" updatedAt={mla.totalAssets !== null ? pageUpdated : null}>
-              {mla.totalAssets !== null
+            <EnrichmentRow label="Declared Assets" updatedAt={mla.totalAssets != null ? pageUpdated : null}>
+              {mla.totalAssets != null
                 ? <span className="text-sm text-gray-800">{formatAssets(mla.totalAssets)}</span>
                 : <Pending />}
             </EnrichmentRow>
 
-            <EnrichmentRow label="Liabilities" updatedAt={mla.totalLiabilities !== null ? pageUpdated : null}>
-              {mla.totalLiabilities !== null
+            <EnrichmentRow label="Liabilities" updatedAt={mla.totalLiabilities != null ? pageUpdated : null}>
+              {mla.totalLiabilities != null
                 ? <span className="text-sm text-gray-800">{formatAssets(mla.totalLiabilities)}</span>
                 : <Pending />}
             </EnrichmentRow>
 
-            <EnrichmentRow label="Criminal Cases" updatedAt={mla.criminalCases !== null ? pageUpdated : null}>
-              {mla.criminalCases !== null
+            <EnrichmentRow label="Criminal Cases" updatedAt={mla.criminalCases != null ? pageUpdated : null}>
+              {mla.criminalCases != null
                 ? (
                   <div className="flex flex-wrap items-center gap-2">
                     <span className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold ${criminalBadgeClass}`}>
                       {criminalCount} case{criminalCount !== 1 ? 's' : ''}
                     </span>
-                    {mla.criminalCasesSerious !== null && mla.criminalCasesSerious > 0 && (
+                    {mla.criminalCasesSerious != null && mla.criminalCasesSerious > 0 && (
                       <span className="text-xs text-red-600">
                         ({mla.criminalCasesSerious} serious)
                       </span>
@@ -174,8 +174,8 @@ export default async function MLADetailPage({ params }: Props) {
                 : <Pending />}
             </EnrichmentRow>
 
-            <EnrichmentRow label="Performance Score" updatedAt={score !== null ? scoreUpdated : null}>
-              {score !== null
+            <EnrichmentRow label="Performance Score" updatedAt={score != null ? scoreUpdated : null}>
+              {score != null
                 ? (
                   <div className="w-full">
                     <div className="mb-1.5 flex items-baseline justify-between">
@@ -286,5 +286,5 @@ function EnrichmentRow({
 }
 
 function Pending() {
-  return <span className="text-xs italic text-gray-400">Data pending</span>
+  return <span className="text-xs text-gray-400">Data pending</span>
 }
