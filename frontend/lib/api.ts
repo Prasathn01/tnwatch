@@ -37,29 +37,22 @@ interface RawMlaListItem {
 
 interface RawMlaDetail {
   id: string
-  constituency_id: string
-  constituency_name: string
   name: string
   party: string
   alliance: string | null
-  assembly_number: number
-  elected_year: number | null
+  constituency_name: string
+  district: string
+  assembly_number: number | null
+  source_url: string | null
+  last_updated: string | null
   vote_margin: number | null
-  vote_share: string | null
-  age: number | null
-  education: string | null
-  profession: string | null
+  vote_share: number | null
   total_assets: string | null
   total_liabilities: string | null
   criminal_cases: number | null
   criminal_cases_serious: number | null
-  is_minister: boolean
-  portfolio: string | null
-  photo_url: string | null
   performance_score: number | null
-  score_breakdown: ScoreBreakdown | null
-  source_url: string | null
-  last_updated: string | null
+  score_breakdown: object | null
 }
 
 interface RawConstituencyItem {
@@ -88,29 +81,22 @@ function mapMla(raw: RawMlaListItem): MlaListItem {
 function mapMlaDetail(raw: RawMlaDetail): MlaDetail {
   return {
     id: raw.id,
-    constituencyId: raw.constituency_id,
-    constituencyName: raw.constituency_name,
     name: raw.name,
     party: raw.party,
-    alliance: raw.alliance,
-    assemblyNumber: raw.assembly_number,
-    electedYear: raw.elected_year,
-    voteMargin: raw.vote_margin,
+    alliance: raw.alliance ?? null,
+    constituency: raw.constituency_name,
+    district: raw.district,
+    assemblyNumber: raw.assembly_number ?? null,
+    sourceUrl: raw.source_url ?? null,
+    lastUpdated: raw.last_updated ?? null,
+    voteMargin: raw.vote_margin ?? null,
     voteShare: raw.vote_share ?? null,
-    age: raw.age,
-    education: raw.education,
-    profession: raw.profession,
     totalAssets: raw.total_assets ?? null,
     totalLiabilities: raw.total_liabilities ?? null,
-    criminalCases: raw.criminal_cases,
+    criminalCases: raw.criminal_cases ?? null,
     criminalCasesSerious: raw.criminal_cases_serious ?? null,
-    isMinister: raw.is_minister,
-    portfolio: raw.portfolio,
-    photoUrl: raw.photo_url,
-    performanceScore: raw.performance_score,
-    scoreBreakdown: raw.score_breakdown ?? null,
-    sourceUrl: raw.source_url,
-    lastUpdated: raw.last_updated,
+    performanceScore: raw.performance_score ?? null,
+    scoreBreakdown: (raw.score_breakdown as ScoreBreakdown) ?? null,
   }
 }
 

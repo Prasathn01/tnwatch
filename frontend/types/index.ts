@@ -26,43 +26,39 @@ export interface MlaListResponse {
 }
 
 export interface ScoreBreakdownComponent {
-  label: string
-  delta: number
-  source_url: string | null
+  label: string;
+  value: number;
+  weight: number;
+  source_url: string | null;
 }
 
 export interface ScoreBreakdown {
-  version: string
-  base_score: number
-  components: ScoreBreakdownComponent[]
-  calculated_at: string | null
+  components: ScoreBreakdownComponent[];
+  total: number;
+  version: string;
+  calculated_at: string;
 }
 
 export interface MlaDetail {
-  id: string
-  constituencyId: string
-  constituencyName: string
-  name: string
-  party: string
-  alliance: string | null
-  assemblyNumber: number
-  electedYear: number | null
-  voteMargin: number | null
-  voteShare: string | null
-  age: number | null
-  education: string | null
-  profession: string | null
-  totalAssets: string | null
-  totalLiabilities: string | null
-  criminalCases: number | null
-  criminalCasesSerious: number | null
-  isMinister: boolean
-  portfolio: string | null
-  photoUrl: string | null
-  performanceScore: number | null
-  scoreBreakdown: ScoreBreakdown | null
-  sourceUrl: string | null
-  lastUpdated: string | null
+  id: string;
+  name: string;
+  party: string;
+  alliance: string | null;
+  constituency: string;
+  district: string;
+  assemblyNumber: number | null;
+  sourceUrl: string | null;
+  lastUpdated: string | null;
+
+  // enrichment fields — all nullable until scrapers run
+  voteMargin: number | null;
+  voteShare: number | null;
+  totalAssets: string | null;
+  totalLiabilities: string | null;
+  criminalCases: number | null;
+  criminalCasesSerious: number | null;
+  performanceScore: number | null;
+  scoreBreakdown: ScoreBreakdown | null;
 }
 
 export interface ConstituencyItem {
