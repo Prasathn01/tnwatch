@@ -94,13 +94,17 @@ def _collapse_ws(text: str) -> str:
     return _WS_RE.sub(" ", text.replace("\xa0", " ")).strip()
 
 
+_PAREN_JUNK_RE = re.compile(r"\s*\(.*")  # strips "(Tvk?" style party/footnote leakage
+
+
 def clean_name(raw: str | None) -> str:
-    """Footnotes -> whitespace -> honorifics -> title-case. '' if nothing remains."""
+    """Footnotes -> whitespace -> honorifics -> title-case -> strip trailing parentheticals."""
     s = _collapse_ws(_strip_markers(raw or ""))
     tokens = s.split(" ") if s else []
     while tokens and tokens[0].rstrip(".").lower() in HONORIFICS:
         tokens.pop(0)
-    return " ".join(tokens).strip().title()
+    name = " ".join(tokens).strip().title()
+    return _PAREN_JUNK_RE.sub("", name).strip()
 
 
 def map_party(raw: str | None) -> str:
@@ -293,6 +297,15 @@ class NormaliserAgent:
             staged = staging.staged_seat_ids(conn)
             vacant_ids = derive_vacant_ids(self._seed_ids(), staged)
             vacant = supabase_io.set_constituency_status(client, vacant_ids, "vacant")
+            # Guard: if we computed vacant seats but Supabase updated 0 rows, the
+            # constituencies table probably wasn't seeded yet — surface this rather
+            # than silently succeeding with stale status='filled' rows in prod.
+            if vacant_ids and vacant == 0:
+                log.warning(
+                    "set_constituency_status computed %d vacant IDs %s but updated 0 rows "
+                    "— constituencies table may not be seeded yet; re-run normaliser after seeding.",
+                    len(vacant_ids), vacant_ids,
+                )
             consumed = supabase_io.mark_staging_consumed(conn, result.consumed_keys)
         finally:
             conn.close()
