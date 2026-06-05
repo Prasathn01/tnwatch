@@ -8,6 +8,7 @@ import type {
   MlaListItem,
   MlaListResponse,
   MlaDetail,
+  ScoreBreakdown,
   ConstituencyItem,
   ConstituencyListResponse,
 } from '@/types'
@@ -44,17 +45,19 @@ interface RawMlaDetail {
   assembly_number: number
   elected_year: number | null
   vote_margin: number | null
-  vote_share_pct: string | null
+  vote_share: string | null
   age: number | null
   education: string | null
   profession: string | null
-  declared_assets_cr: string | null
-  liabilities_cr: string | null
-  criminal_cases: number
+  total_assets: string | null
+  total_liabilities: string | null
+  criminal_cases: number | null
+  criminal_cases_serious: number | null
   is_minister: boolean
   portfolio: string | null
   photo_url: string | null
-  performance_score: string | null
+  performance_score: number | null
+  score_breakdown: ScoreBreakdown | null
   source_url: string | null
   last_updated: string | null
 }
@@ -93,17 +96,19 @@ function mapMlaDetail(raw: RawMlaDetail): MlaDetail {
     assemblyNumber: raw.assembly_number,
     electedYear: raw.elected_year,
     voteMargin: raw.vote_margin,
-    voteSharePct: raw.vote_share_pct,
+    voteShare: raw.vote_share,
     age: raw.age,
     education: raw.education,
     profession: raw.profession,
-    declaredAssetsCr: raw.declared_assets_cr,
-    liabilitiesCr: raw.liabilities_cr,
+    totalAssets: raw.total_assets,
+    totalLiabilities: raw.total_liabilities,
     criminalCases: raw.criminal_cases,
+    criminalCasesSerious: raw.criminal_cases_serious,
     isMinister: raw.is_minister,
     portfolio: raw.portfolio,
     photoUrl: raw.photo_url,
     performanceScore: raw.performance_score,
+    scoreBreakdown: raw.score_breakdown,
     sourceUrl: raw.source_url,
     lastUpdated: raw.last_updated,
   }

@@ -25,6 +25,19 @@ export interface MlaListResponse {
   items: MlaListItem[]
 }
 
+export interface ScoreBreakdownComponent {
+  label: string
+  delta: number
+  source_url: string | null
+}
+
+export interface ScoreBreakdown {
+  version: string
+  base_score: number
+  components: ScoreBreakdownComponent[]
+  calculated_at: string | null
+}
+
 export interface MlaDetail {
   id: string
   constituencyId: string
@@ -35,17 +48,19 @@ export interface MlaDetail {
   assemblyNumber: number
   electedYear: number | null
   voteMargin: number | null
-  voteSharePct: string | null
+  voteShare: string | null
   age: number | null
   education: string | null
   profession: string | null
-  declaredAssetsCr: string | null
-  liabilitiesCr: string | null
-  criminalCases: number
+  totalAssets: string | null
+  totalLiabilities: string | null
+  criminalCases: number | null
+  criminalCasesSerious: number | null
   isMinister: boolean
   portfolio: string | null
   photoUrl: string | null
-  performanceScore: string | null
+  performanceScore: number | null
+  scoreBreakdown: ScoreBreakdown | null
   sourceUrl: string | null
   lastUpdated: string | null
 }
