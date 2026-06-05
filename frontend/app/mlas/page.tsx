@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import { getMlas, getConstituencies } from '@/lib/api'
+
+export const dynamic = 'force-dynamic'
 import MLAListClient from './MLAListClient'
 import type { MlaListItemEnriched } from '@/types'
 
