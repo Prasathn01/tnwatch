@@ -16,6 +16,9 @@ from __future__ import annotations
 
 import os
 import sqlite3
+from dataclasses import dataclass
+from decimal import Decimal
+from datetime import datetime, timezone
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
@@ -57,6 +60,80 @@ def set_constituency_status(client: "Client", ids: list[str], status: str) -> in
     if not ids:
         return 0
     resp = client.table("constituencies").update({"status": status}).in_("id", ids).execute()
+    return len(resp.data or [])
+
+
+@dataclass
+class MlaMatchRow:
+    """Lightweight row used by eci_scraper for fuzzy matching."""
+    mla_id: str
+    name: str
+    party: str
+    constituency_name: str
+
+
+@dataclass
+class ECIUpdatePayload:
+    """Fields to write back into the `mlas` table from ECI/MyNeta data."""
+    mla_id: str
+    declared_assets_cr: Decimal | None
+    liabilities_cr: Decimal | None
+    criminal_cases: int
+    age: int | None
+    education: str | None
+    source_url: str  # provenance (Rule 5)
+
+
+def load_mlas_for_matching(client: "Client") -> list[MlaMatchRow]:
+    """
+    Return all current MLAs with their constituency names for fuzzy matching.
+    The constituency name comes from the joined `constituencies` table so it
+    matches the Wikipedia canonical spelling used in eci_scraper's match step.
+    """
+    resp = (
+        client.table("mlas")
+        .select("id, name, party, constituencies(name)")
+        .execute()
+    )
+    rows: list[MlaMatchRow] = []
+    for row in resp.data or []:
+        cname = (row.get("constituencies") or {}).get("name") or ""
+        rows.append(MlaMatchRow(
+            mla_id=row["id"],
+            name=row["name"],
+            party=row["party"],
+            constituency_name=cname,
+        ))
+    return rows
+
+
+def update_mla_eci(client: "Client", payload: ECIUpdatePayload) -> int:
+    """
+    Update a single `mlas` row with ECI-sourced enrichment fields.
+    Uses UPDATE (not upsert) — only enriches existing rows, never creates new ones.
+    Returns 1 on success, 0 if the mla_id was not found.
+
+    NOTE: `criminal_cases_serious` and `candidate_id_eci` are stored in eci_staging
+    but require a schema migration before they can be pushed here:
+        ALTER TABLE mlas ADD COLUMN criminal_cases_serious int DEFAULT 0;
+        ALTER TABLE mlas ADD COLUMN candidate_id_eci text;
+    Run that migration in Supabase SQL editor, then add them to the dict below.
+    """
+    data: dict = {
+        "last_updated": datetime.now(timezone.utc).isoformat(),
+    }
+    if payload.declared_assets_cr is not None:
+        data["declared_assets_cr"] = str(payload.declared_assets_cr)
+    if payload.liabilities_cr is not None:
+        data["liabilities_cr"] = str(payload.liabilities_cr)
+    # criminal_cases: always write (0 is a valid value)
+    data["criminal_cases"] = payload.criminal_cases
+    if payload.age is not None:
+        data["age"] = payload.age
+    if payload.education is not None:
+        data["education"] = payload.education
+
+    resp = client.table("mlas").update(data).eq("id", payload.mla_id).execute()
     return len(resp.data or [])
 
 

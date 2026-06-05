@@ -20,10 +20,11 @@ from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 
 class SourcePageType(str, Enum):
-    """Which kind of Wikipedia page a raw row came from."""
+    """Which kind of source page a raw row came from."""
 
     MEMBERS_LIST = "members_list"            # 17th_Tamil_Nadu_Assembly members table
     CONSTITUENCY_PAGE = "constituency_page"  # per-constituency article (v2 enrichment)
+    ECI_CANDIDATE = "eci_candidate"          # myneta.info candidate.php page
 
 
 class FetchedPage(BaseModel):
@@ -148,6 +149,47 @@ class Constituency(BaseModel):
     def _known_status(cls, v: str) -> str:
         if v not in {"filled", "vacant"}:
             raise ValueError(f"status must be filled|vacant, got {v!r}")
+        return v
+
+
+class RawECIRecord(BaseModel):
+    """
+    One candidate row scraped from myneta.info — UNTRUSTED, UNPARSED.
+    All value fields are str|None (same discipline as RawMLARecord): numbers keep
+    commas and currency prefixes; typing is the eci_scraper's internal job.
+    This is the contract for the `eci_staging` SQLite table.
+    """
+
+    model_config = ConfigDict(extra="forbid")
+
+    # --- identity ---
+    candidate_id_myneta: str                    # URL param candidate_id (idempotency key)
+    candidate_url: str                          # exact page URL scraped (Rule 5)
+
+    # --- scraped text (all raw) ---
+    candidate_name_raw: str | None = None
+    constituency_name_raw: str | None = None
+    party_raw: str | None = None
+    total_assets_raw: str | None = None         # e.g. "Rs 1,23,45,678" or "Nil"
+    total_liabilities_raw: str | None = None
+    criminal_cases_raw: str | None = None       # total count as string
+    criminal_cases_serious_raw: str | None = None  # IPC-serious count as string
+    education_raw: str | None = None
+    age_raw: str | None = None
+    candidate_id_eci_raw: str | None = None     # ECI affidavit reference (S/No.)
+
+    # --- provenance (mandatory — Rule 5) ---
+    source_url: str = Field(..., description="Exact URL this row came from (myneta candidate page)")
+    scraped_at: datetime
+
+    # --- stable natural key for idempotent upsert (Rule 8) ---
+    staging_key: str  # 'eci:myneta:{candidate_id_myneta}'
+
+    @field_validator("source_url")
+    @classmethod
+    def _source_not_blank(cls, v: str) -> str:
+        if not v.strip():
+            raise ValueError("source_url must be non-empty (Rule 5)")
         return v
 
 
