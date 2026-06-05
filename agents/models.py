@@ -101,13 +101,20 @@ class MLACleanRecord(BaseModel):
     performance_score: Decimal | None = Field(default=None, max_digits=5, decimal_places=1)
 
     # provenance for the base profile (Rule 5; mlas.source_url added this slice)
-    source_url: str
+    source_url: str = Field(..., min_length=1)
 
     @field_validator("vote_share_pct")
     @classmethod
     def _share_in_range(cls, v: Decimal | None) -> Decimal | None:
         if v is not None and not (Decimal(0) <= v <= Decimal(100)):
             raise ValueError("vote_share_pct must be between 0 and 100")
+        return v
+
+    @field_validator("source_url")
+    @classmethod
+    def _source_not_blank(cls, v: str) -> str:
+        if not v.strip():
+            raise ValueError("source_url must be a non-empty URL (Rule 5: no source, no store)")
         return v
 
 

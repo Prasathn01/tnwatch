@@ -89,6 +89,14 @@ Each vertical reuses the SAME pipeline pattern proven by Slice #1:
 - **scikit-learn** — simple statistical work (trend detection, anomaly flags). No
   model training, no GPU needed.
 
+> **Where the LLMs actually engage:** the *base-profile* Normaliser (Slice #1,
+> Wikipedia → `mlas`) is **purely deterministic** — string cleaning + a party map
+> + Pydantic validation, no Ollama/Gemini. The constituency link is already known
+> (the scraped constituency number → `AC-NNN`), so there is no fuzzy matching at
+> this stage. Ollama (fuzzy name matching, dedup) and Gemini (messy-text
+> extraction, Tamil) come in at the **enrichment** agents (ECI/PRS/news), which
+> arrive with external names that must be matched back to these MLAs.
+
 ### Database
 - **Supabase (PostgreSQL)** — cloud source of truth + Auth
 - **SQLite** — local staging DB on Mac Mini (dirty data lands here first)
@@ -397,10 +405,10 @@ code you cannot explain in one sentence.
 - [ ] Repo + CONTEXT.md created
 - [ ] `.env.example` + secrets plan
 - [ ] Supabase project created, `schema.sql` applied
-- [~] Constituencies seed (234 rows) — `scripts/seed_constituencies.py` generates `data/constituencies.json` (234 rows verified). Supabase load pending (run with `--load`). [2026-06-04]
+- [x] Constituencies seed (234 rows) — `scripts/seed_constituencies.py` → `data/constituencies.json`, loaded into Supabase via `--load`; 234 rows verified (SC 43, ST 2). [2026-06-04]
 - [x] **MLA Scraper Agent** — Wikipedia base list → SQLite staging. `agents/mla_scraper.py`, fetch/parse/store/report, idempotent upsert, 9 pytest tests, live run stages 229 sitting MLAs (5 vacant seats correctly excluded). [2026-06-04]
-- [ ] Normaliser agent (Ollama) — clean + fuzzy match
-- [ ] Validator + push to Supabase
+- [x] Normaliser agent — `agents/normaliser.py` (deterministic: footnote/whitespace/honorific cleaning, `PARTY_MAP`, `AC-NNN` link). No Ollama needed for base profile (see §4). [2026-06-05]
+- [x] Validator + push to Supabase — Pydantic `MLACleanRecord` validates; `agents/supabase_io.py` upserts `mlas`; 229 MLAs + 5 vacant seats flipped; verified live. [2026-06-05]
 - [ ] ECI/affidavit parser (assets, criminal cases)
 - [ ] PRS activity agent (attendance, questions, bills)
 - [ ] Performance score calculation

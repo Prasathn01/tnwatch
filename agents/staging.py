@@ -107,6 +107,20 @@ def upsert_raw_mla(conn: sqlite3.Connection, records: Iterable[RawMLARecord]) ->
     return cur.rowcount if cur.rowcount != -1 else len(params)
 
 
+def staged_seat_ids(conn: sqlite3.Connection) -> set[str]:
+    """
+    All constituency ids that have a staged member row (regardless of `normalised`).
+    Used to derive vacant seats = seeded constituencies − staged seats. Reads the
+    whole table (not just pending) so vacancy stays correct across incremental runs.
+    """
+    ids: set[str] = set()
+    for row in conn.execute("SELECT constituency_number_raw FROM staging_mla_raw"):
+        raw = row["constituency_number_raw"]
+        if raw is not None and str(raw).strip().isdigit():
+            ids.add(f"AC-{int(raw):03d}")
+    return ids
+
+
 def insert_agent_run(conn: sqlite3.Connection, report: AgentRunReport) -> None:
     """Append one row to the local agent_runs audit table (CONTEXT.md §6)."""
     conn.execute(
